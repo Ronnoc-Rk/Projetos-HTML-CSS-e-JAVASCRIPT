@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&family=Macondo+Swash+Caps&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(fundo.png);
+    background-size: cover;
+    height: 100vh;
+    box-sizing: border-box;
+}
+.ver{
+    color: #ff0043;
+}
+
+.apresentacao {
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin: 10% 15%;
+}
+
+.apresentacao__conteudo {
+    width: 615px;
+    height: 357px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.apresentacao__conteudo__titulo {
+    font-size: 36px;
+    font-family: "Boldonse", system-ui;
+    top: -100px;
+}
+
+.apresentacao__conteudo__texto {
+    font-size: 24px;
+    font-family: "Macondo Swash Caps", sans-serif;
+}
+
+.apresentacao__links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.apresentacao__links__botao {
+    background-color: #ff0043;
+    color: black;
+    border: #ff0043;
+    border-radius: 10px;
+    width: 280px;
+    height: 58.51px;
+    text-align: center;
+    line-height: 58.51px;
+    font-size: 24px;
+    font-family: "Macondo Swash Caps", sans-serif;
+    text-decoration: none;
+    margin-top: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.apresentacao__links__botao:hover {
+    background-color: #e60039;
+    transform: scale(1.05);
+}
+
+img {
+    width: 400px;
+    height: 400px;
+}
